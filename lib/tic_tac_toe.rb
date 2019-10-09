@@ -119,6 +119,7 @@ def play
   if winner
     puts "Congratulations #{winner}!"
 end
+end
 
 end
 
