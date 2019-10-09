@@ -105,7 +105,10 @@ def winner
 
 end
 
-def play
+def player
+  turn until over?
+  if winner
+    puts "Congratulations #{winner}!"
 
 end
 
